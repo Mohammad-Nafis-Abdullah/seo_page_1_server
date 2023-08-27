@@ -53,11 +53,12 @@ async function run() {
 }
 run().catch(console.dir);
 
-
+// home route
 app.get('/',async (req,res)=> {
     res.send('Server is running');
 })
 
+// server listening
 app.listen(port,()=> {
   console.log(`Server is running in the port : ${port}`);
 })
