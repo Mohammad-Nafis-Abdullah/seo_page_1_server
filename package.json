@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "repository": "git@github.com:Mohammad-Nafis-Abdullah/seo_page_1_server.git",
   "author": "Mohammad-Nafis-Abdullah <nafisabdullah2@gmail.com>",
