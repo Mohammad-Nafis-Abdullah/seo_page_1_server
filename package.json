@@ -1,7 +1,7 @@
 {
   "name": "server_site",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "engines": {
     "node": "18.x"
   },
@@ -17,7 +17,7 @@
   },
 
   "scripts": {
-    "start": "node index.js",
-    "start-dev": "nodemon index.js"
+    "start": "node api/index.js",
+    "start-dev": "nodemon api/index.js"
   }
 }
