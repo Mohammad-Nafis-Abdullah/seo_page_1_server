@@ -10,11 +10,11 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "./index.js"
     },
     {
-      "src": "/collections/(.*)",
-      "dest": "/"
+      "src": "/collections/:name",
+      "dest": "./index.js"
     }
   ]
 }
