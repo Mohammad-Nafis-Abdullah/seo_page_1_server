@@ -13,7 +13,7 @@
       "dest": "./index.js"
     },
     {
-      "src": "/collections/:name",
+      "src": "/collections/(.*)",
       "dest": "./index.js"
     }
   ]
