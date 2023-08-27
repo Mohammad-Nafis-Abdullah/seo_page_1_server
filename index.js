@@ -54,7 +54,7 @@ async function run() {
 run().catch(console.dir);
 
 
-app.get('/api',async (req,res)=> {
+app.get('/',async (req,res)=> {
     res.send('Server is running');
 })
 
